@@ -1,0 +1,26 @@
+{
+    "name": "marvindurot/wn-sail-plugin",
+    "description": "Laravel Sail integration for WinterCMS",
+    "type": "winter-plugin",
+    "homepage": "https://github.com/durotm/wn-sail-plugin",
+    "keywords": ["winter", "wintercms", "laravel", "sail", "docker"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MarvinDurot\\Sail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marvin Durot",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/durotm/wn-sail-plugin/issues",
+        "source": "https://github.com/durotm/wn-sail-plugin"
+    },
+    "require": {
+        "laravel/sail": "^1.23"
+    }
+}
